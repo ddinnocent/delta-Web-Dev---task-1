@@ -1,0 +1,100 @@
+body {
+  background-color: #1A374D;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+}
+
+.big-division {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: #B1D0E0;
+  margin-top: 35px;
+}
+
+.welcome-text {
+  font-size: 7rem;
+  text-align: center;
+}
+
+.play-link {
+  text-decoration: none;
+  font-size: 4rem;
+  color: #B1D0E0;
+  background-color: #1A374D;
+  padding: 20px;
+  border: solid 5px #eeeeee;
+  border-radius: 20px;
+  transition: background-color 1s;
+}
+
+.play-link:hover {
+  text-decoration: none;
+  font-size: 4rem;
+  color: #082032;
+  background-color: #406882;
+  padding: 20px;
+  border: solid 5px #082032;
+  border-radius: 20px;
+}
+
+.outer-div {
+  margin: auto;
+  margin-top: 35px;
+  background-color: #6998AB;
+  width: 50.5%;
+  height: 530px;
+  z-index: -1;
+  /* padding: 5px; */
+  border-radius: 20px;
+}
+
+.tiles {
+  z-index: 2;
+  position: absolute;
+  width: 10%;
+  height: 120px;
+  background-color: #082032;
+  border-radius: 7px;
+  transition: border 0.1s;
+}
+.tiles:hover {
+  border-radius: 7px;
+  border: 5px solid #EEEEEE;
+  z-index: 2;
+  position: absolute;
+  width: 9.5%;
+  height: 110px;
+}
+
+.col1 {
+  margin-left: 2%;
+}
+.col2 {
+  margin-left: 14%;
+}
+.col3 {
+  margin-left: 26%;
+}
+.col4 {
+  margin-left: 38%;
+}
+
+.row1 {
+  margin-top: 10px;
+}
+.row2 {
+  margin-top: 140px;
+}
+.row3 {
+  margin-top: 270px;
+}
+.row4 {
+  margin-top: 400px;
+}
+
+.lightup {
+  background-color: #eeeeee;
+}
